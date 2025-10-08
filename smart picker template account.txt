@@ -1,0 +1,13 @@
+  <oj-vb-fragment bridge="[[vbBridge]]" name="oracle_cx_commonUI:smart-picker">
+    <oj-vb-fragment-param name="dynamicLayoutContext" value="[[ $dynamicLayoutContext ]]"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="entityName" value="Account"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="idFieldName" value="AccountPartyId"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="getBackAttributeList"
+      value='["PartyUniqueName","PrimaryAddress.FormattedAddress","OrganizationDEO_AccountNumber_c","OrganizationDEO_BBBCustomerType_c","PrimaryContact.PartyName"]'></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="columns"
+      value='["PartyUniqueName","PrimaryAddress.FormattedAddress","AccountNumber_c","BBBCustomerType_c","PrimaryContact.PartyName"]'></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="smartList" value="true"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="isFullColumnLabelDisplayed" value="true"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="isCreateEnabled" value="true"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="labelHint" value="[['Account']]"></oj-vb-fragment-param>
+  </oj-vb-fragment>

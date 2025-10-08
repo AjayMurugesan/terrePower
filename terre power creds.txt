@@ -45,3 +45,23 @@ A) Please run the Adaptive Search processes:
   After this, check again if records are coming in the Redwood.
 
 B) Run Publish Feed Elements process if needed. This needs Spectra provisioned to the environment.
+
+
+fn:concat($self/ics:metadata/ics:integration/ics:name, '-Processing Error-', $var_environment)
+
+
+
+"{{ $fields.ProductType.value() === 'Item'  ?  'custDescription_picker' : null }}",
+
+
+
+
+custom-section-hyperlink
+
+
+
+"[ window.origin+":443/xmlpserver/Custom/Arthi-VisualizationConfiguration/Deal/Subscription Form.xdo?_xiasynch=&_xpf=&_xpt=0&_dFlag=false&_edIndex=0&_dIndex=0&_rToken=&_ranDiag=false&_xdo=%2FCustom%2FArthi-VisualizationConfiguration%2FDeal%2FSubscription%20Form.xdo&_xmode=4&_paramsP_DEAL_ID="+$variables.DealId+"&_paramsP_DEAL_NUMBER=&_xt=Subscription%20Form&_xf=pdf&_xautorun=false&_linkToReport=true" ]]"
+
+
+
+[[ "https://bbb.techsee.me/sfrce?is=history&r=" + $variables.SrNumber ]]
